@@ -17,12 +17,12 @@
     "node": ">=20.9.0"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^3.0.0",
+    "@ai-sdk/openai": "3.0.7",
     "@mastra/core": "latest",
     "@mastra/libsql": "latest",
     "@mastra/loggers": "latest",
     "@mastra/memory": "latest",
-    "ai": "^5.0.0",
+    "ai": "6.0.20",
     "csv-parse": "^5.6.0",
     "dotenv": "^17.0.1",
     "pg": "^8.16.3",
