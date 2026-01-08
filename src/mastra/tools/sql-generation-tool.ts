@@ -111,7 +111,7 @@ Please provide:
 5. List of tables used`;
 
       const result = await generateObject({
-        model: openai('gpt-4.1'),
+        model: openai('gpt-3.5-turbo'),
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userPrompt },
